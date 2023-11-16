@@ -2,9 +2,9 @@ const mongoose=require("mongoose");
 
 const productsSchema = new mongoose.Schema({
     id:String,
-    url:String,
+    img:String,
     title:Object,
-    price:String
+    price:Number
 });
 
 
