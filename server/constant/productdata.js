@@ -3,75 +3,157 @@
 const products=[
     {
         id:'product1',
-        img:'./bananaras.png',
-        title:{
-            shortTitle:'BananaRas',
-            descrip:'A delightful banana juice crafted with sugarcane jaggery, delivering the natural sweetness and goodness of banana in every sip. Savor the refreshing beverage year-round, to quench your thirst with its irresistible flavor.'
+        url:"https://static.wixstatic.com/media/3a5d5e_98a49e76c8af4e2493d0d7187b08eba3~mv2.jpg/v1/fill/w_625,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3a5d5e_98a49e76c8af4e2493d0d7187b08eba3~mv2.jpg",
+        title:
+        {
+            shortTitle:'Banana Juice',
+            longTitle:'A delightful banana juice crafted with sugarcane jaggery,delivering the natural sweetness and goodness of banana in every sip.Savor the refreshingbeverage year-round,to quench your thirst with its irresistable flavour',
+    
         },
-        price: 30
+        price: {
+            mrp:30,
+            cost:20,
+            dicount:'12%',
+        },
+        ratings:4.5,
+        description:'Yummy and Healthy',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     },
     {
         id:'product2',
-        img:'./banoffee.png',
-        title:{
+        url:"https://static.wixstatic.com/media/3a5d5e_16d1c555540c448ead6c8eb955d0961e~mv2.jpg/v1/fill/w_625,h_469,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3a5d5e_16d1c555540c448ead6c8eb955d0961e~mv2.jpg",
+        title:
+        {
             shortTitle:'Banoffee',
-            descrip:'A heavenly combination of banana slices dipped in honey, crafted to perfection for the ultimate snacking experience. These delectable treats are elevated with the flavors of ginger, cardamom, and more, adding a tantalizing twist to your taste buds.'
+            longTitle:'A heavenly combinaiton of banana slice dipped in honey, crafted to perfection for the ultimate snacking experience',
+    
         },
-        price:  40 
+        price: {
+            mrp:40,
+            cost:30,
+            dicount:'12%',
+        },
+        ratings:5,
+        description:'A heavenly combinaiton of banana slice dipped in honey, crafted to perfection for the ultimate snacking experience',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     },
+    
     {
         id:'product3',
-        img:'./nojomen.png',
-        title:{
-            shortTitle:'NojoMen',
-            descrip:'The yummy noodles made out of an incredibly nutritious blend of banana and millets, completely devoid of maida. Experience a delightful twist with the specia taste-enhancing powder gauranteed to satisfy your cravings for delicious noodles.'
+        url:"https://static.wixstatic.com/media/3a5d5e_d8cf8d27b028419db29a67b3b7e06f7c~mv2.jpeg/v1/fill/w_625,h_469,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3a5d5e_d8cf8d27b028419db29a67b3b7e06f7c~mv2.jpeg",
+        title:
+        {
+            shortTitle:'NOJO MEN',
+            longTitle:'NOJO MEN',
+    
         },
-        price: 70
+        price: {
+            mrp:70,
+            cost:60,
+            dicount:'12%',
+        },
+        ratings:4.5,
+        description:'The yummy noodles made out of an incredible nutritious blend of banana and millets, completely devoid of media',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     },
+    
     {
         id:'product4',
-        img:'./plantano.png',
-        title:{
-            shortTitle:'Plantano',
-            descrip:'The potassium rich banana powder that adds a healthy and flavorful twist to your culinary creations. Effortlessly mix it into Roti dough, kheer, sweets, milkshakes , and more as a taste and nutrition enhancer.'
+        url:"https://static.wixstatic.com/media/3a5d5e_f479d2b78b264f72a532e2b9825c2634~mv2.jpg/v1/fill/w_625,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3a5d5e_f479d2b78b264f72a532e2b9825c2634~mv2.jpg",
+        title:
+        {
+            shortTitle:'Banokie',
+            longTitle:'Banokie',
+    
         },
-        price: 80
+        price: {
+            mrp:80,
+            cost:60,
+            dicount:'12%',
+        },
+        ratings:4,
+        description:'A healthy baked delight that takes your tea time to benew excitement',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     },
+    
     {
         id:'product5',
-        img:'./banokie.png',
-        title:{
-            shortTitle:'Banokie',
-            descrip:'A healthy baked delight that takes your tea time to benew excitement. Crafted with a blend of nutrient rich millet, banana powder, and whole wheat. Banokie offers guilt-free indulgence without any maida or added sugar.'
+        url:"https://static.wixstatic.com/media/3a5d5e_e00c632c391f4966b45756d49155ff59~mv2.jpg/v1/fill/w_625,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3a5d5e_e00c632c391f4966b45756d49155ff59~mv2.jpg",
+        title:
+        {
+            shortTitle:'Plantane',
+            longTitle:'Plantane',
+    
         },
-        price: 70
+        price: {
+            mrp:70,
+            cost:50,
+            dicount:'12%',
+        },
+        ratings:4.5,
+        description:'potassium rich banana powder that adds a healthy and powerful twist to your culinary creations',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     },
+    
     {
         id:'product6',
-        img:'./trekker.png',
-        title:{
+        url:"https://static.wixstatic.com/media/3a5d5e_427d5494742346cfbad03f307440ce75~mv2.jpeg/v1/fill/w_625,h_469,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3a5d5e_427d5494742346cfbad03f307440ce75~mv2.jpeg",
+        title:
+        {
             shortTitle:'Trekker',
-            descrip:'A one of a kind delicacy crafted from sun dried Bananas transformed into delectable banana figs carefully coated with natural honey. With no preservatives or chemicals added, Trekker offers a guilt-free pleasure for all banana enthusiasts to savor.'
+            longTitle:'Trekker',
+    
         },
-        price: 20
+        price: {
+            mrp:20,
+            cost:15,
+            dicount:'12%',
+        },
+        ratings:4,
+        description:'one of a kind delicacy crafted from sun dried bananas transformed into delectable banana figs care fully coated with natural honey',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     },
     {
         id:'product7',
-        img:'./trekker.png',
+        url:'https://www.pookspantry.com/wp-content/uploads/2023/05/pickled-banana-peppers.jpg',
         title:{
             shortTitle:'Banokle',
-            descrip:'Pickle made from the exotic banana flower, meticulously crafted with no added chemical preservatives. Indulge in its rich, unique flavours that make it a culinary masterpiece.'
+            longTitle:'Banokle',
+    
         },
-        price: 40
+        price: {
+            mrp:40,
+            cost:35,
+            dicount:'12%',
+        },
+        ratings:4,
+        description:'one of a kind delicacy crafted from sun dried bananas transformed into delectable banana figs care fully coated with natural honey',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     },
     {
         id:'product8',
-        img:'./trekker.png',
+        url:'https://www.chalgenius.com/wp-content/uploads/2020/08/Ready-to-Cook-Banana-Stem.jpg',
         title:{
             shortTitle:'Banastem',
-            descrip:'The Banana Stem Juice, a healthy delight with no added preservatives. Enjoy a refreshing and natural beverage that\'s both nutritious and delicious.Indulge in the all-season refreshment of this enticing beverage.'
+            longTitle:'Banastem',
+    
         },
-        price: 80
+        price: {
+            mrp:20,
+            cost:15,
+            dicount:'12%',
+        },
+        ratings:4,
+        description:'one of a kind delicacy crafted from sun dried bananas transformed into delectable banana figs care fully coated with natural honey',
+        discount: 'Extra 10% off',
+        tagline : 'Deal of the day'
     }
 ]
 
